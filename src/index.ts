@@ -24,8 +24,8 @@ app.use(
   })
 )
 //default routes
-app.get('/ok', (c) => {
-  return c.text('The server is running ')
+app.get('/', (c) => {
+  return c.text('The server is running 🚀🚀 ')
 })
 app.notFound((c) => {
   return c.text('Route Not Found', 404)
