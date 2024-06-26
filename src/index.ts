@@ -15,7 +15,7 @@ app.use('*', cors())
 app.use(
   '*',
   cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173','https://red-sea-0ebf43a0f.5.azurestaticapps.net'],
     allowHeaders: ['X-Custom-Header', 'Upgrade-Insecure-Requests'],
     allowMethods: ['POST', 'GET', 'PUT', 'DELETE', 'OPTIONS'],
     exposeHeaders: ['Content-Length', 'X-Kuma-Revision'],
