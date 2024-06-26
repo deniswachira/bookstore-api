@@ -1,0 +1,1 @@
+ALTER TABLE "bookTable" ALTER COLUMN "year" SET NOT NULL;
